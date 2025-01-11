@@ -154,12 +154,11 @@
 </section>
 
 <!-- sitting and cashing section -->
- <section class="p-14  bg-[#F7F8F8] border-t-2 rounded-t-[30px] border-green-600">
+ <section class="lg:p-14   bg-[#F7F8F8] border-t-2 rounded-t-[30px] border-green-600">
   <div class="text-center">
-    <h1 class="">P.H Paribahan</h1>
+    <h1 class="text-4xl font-bold">P.H Paribahan</h1>
     <p>Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
   </div>
-
 <div class="flex mt-2  bg-white rounded-[24px]" >
      
   
@@ -231,8 +230,10 @@
 </div>
 
 
- <!-- seat section -->
- <section class="mt-5 p-5 bg-white rounded-[24px]">
+<!-- seat section -->
+ <section class="mt-5 p-5 bg-white rounded-[24px] flex lg:flex-row flex-col justify-center gap-[20px]">
+<div class="flex-1 w-full">
+
   <!-- seat design start -->
   <div>
     <h1 class="text-3xl font-semibold border-b-2  border-dotted pb-3">Seclect Your Seat</h1>
@@ -252,47 +253,46 @@
      <p class="pl-2">Selected</p>
     </div>
 </div>
-
 <div>
  
-<button class="btn mb-3 lg:ml-[266px] ml-[165px] mt-2">
+<button class="btn mb-3 lg:ml-[329px] ml-[165px] mt-2">
   <i class="fa-regular fa-circle"></i>
 </button>
-     <div class="flex gap-5">
-        <div class="grid grid-cols-3 gap-2">
+     <div class="flex gap-[50px]">
+        <div class="grid grid-cols-3 gap-5">
         
-      <p class="pt-[12px]">A</p>
+      <p class="pt-[12px] pl-[35px]">A</p>
       <button class="btn">A1</button>
       <button class="btn">A2</button>
-      <P  class="pt-[12px]">B</P>
+      <P  class="pt-[12px] pl-[35px]">B</P>
       <button class="btn">B1</button>
       <button class="btn">B2</button>
-      <P  class="pt-[12px]">C</P>
+      <P  class="pt-[12px] pl-[35px]">C</P>
       <button class="btn">C1</button>
       <button class="btn">C2</button>
-      <P  class="pt-[12px]">D</P>
+      <P  class="pt-[12px] pl-[35px]">D</P>
       <button class="btn">D1</button>
       <button class="btn">D2</button>
-      <P  class="pt-[12px]">E</P>
+      <P  class="pt-[12px] pl-[35px]">E</P>
       <button class="btn">E1</button>
       <button class="btn">E2</button>
-      <P  class="pt-[12px]">F</P>
+      <P  class="pt-[12px] pl-[35px]">F</P>
       <button class="btn">F1</button>
       <button class="btn">F2</button>
-      <P  class="pt-[12px]">G</P>
+      <P  class="pt-[12px] pl-[35px]">G</P>
       <button class="btn">G1</button>
       <button class="btn">G2</button>
-      <P  class="pt-[12px]">H</P>
+      <P  class="pt-[12px] pl-[35px]">H</P>
       <button class="btn">H1</button>
       <button class="btn">H2</button>
-      <P class="pt-[12px]">I</P>
+      <P class="pt-[12px] pl-[35px]">I</P>
       <button class="btn">I1</button>
       <button class="btn">I2</button>
-      <P  class="pt-[12px]">J</P>
+      <P  class="pt-[12px] pl-[35px]">J</P>
       <button class="btn">J1</button>
       <button class="btn">J2</button>
         </div>
-        <div class="grid grid-cols-2 gap-2">
+        <div class="grid grid-cols-2 gap-5">
          
       <button class="btn">A3</button>
       <button class="btn">A4</button>
@@ -320,14 +320,97 @@
 
 </div>
   <!-- sit design end -->
-</section>
 
+
+</div>
+  <!-- cash design start -->
+   <!-- cash section -->
+ <section class="flex-1 w-full border-l-2 border-dotted pl-5">
+  <h1 class="text-3xl font-semibold border-b-2  border-dotted pb-3">Seclect Your Seat</h1>
+
+<div class="bg-[#F7F8F8] p-5 mt-5 rounded-[24px]">
+  <div class="flex justify-around  border-b-2 border-dotted pb-3 ">
+    <h1 class="font-semibold">Seat</h1>
+    <h1 class="font-semibold">Class</h1>
+    <h1 class="font-semibold">Price</h1>
+  </div> 
+  <div class="flex justify-around border-b-2 py-3">
+    <h1>C2</h1>
+    <h1>Economy</h1>
+    <h1>550</h1>
+  </div> 
+  <div class="px-3 flex justify-between">
+     <div class="font-semibold pl-[55px]">Total Price</div>
+     <div class="font-semibold">BDT 1100</div>
+  </div>
+
+  <div class="pl-[60px]">
+    <input
+    type="text"
+    placeholder="Type here"
+    class="input input-bordered input-accent w-full max-w-xs mt-3 border-0 h-[65px] "
+ />
+ <button class="btn btn-active btn-secondary text-white bg-green-400 border-0 relative right-20 ">Apply</button>
+
+  </div>
+
+  <div class="px-3 flex justify-between mt-3">
+    <div class="font-semibold pl-[55px]">Grand Total</div>
+    <div class="font-semibold">BDT 1100</div>
+ </div>
+  
+ <div class="mt-5">
+  <h1 class="font-semibold">Passanger Name*</h1>
+  <input
+  type="text"
+  placeholder="Type here"
+  class="input input-bordered input-accent w-full max-w-xs border-0" />
+ </div>
+ <div class="mt-5">
+  <h1 class="font-semibold">E-mail ID*</h1>
+  <input
+  type="email"
+  placeholder="Type here"
+  class="input input-bordered input-accent w-full max-w-xs border-0" />
+ </div>
+ <div class="mt-5">
+  <h1 class="font-semibold">Phone Number</h1>
+  <input
+  type="number"
+  placeholder="Type here"
+  class="input input-bordered input-accent w-full max-w-xs border-0" />
+ </div>
+
+ <div>
+  <button class="mt-5 btn btn-active btn-neutral text-white bg-[#1DD100] border-0 w-full">Next</button>
+
+ </div>
+</div>
  </section>
-
-
-    </main>
+  <!-- cash design end -->
+</section>
+</section>
+</main>
      
-    <footer>
+    <footer class="lg:p-[150px] p-[30px] bg-black">
+<div class="flex justify-between lg:gap-0 gap-4" >
+  <div class="space-y-3">
+    <h1 class="text-4xl text-white font-semibold">P-Ticket</h1>
+   <p class="text-white">P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+  </div>
+   <div class="space-y-3">
+    <p class="text-white">Downlod Our App</p>
+    <button class="primary flex bg-black border gap-2 p-2 rounded-md justify-center items-center">
+        <div>
+          <img src="images/playstore.png" alt="">
+        </div>
+        <div>
+          <p class="text-white">PLAY IT ON</p>
+          <h1 class="text-white lg:text-2xl font-bold">Google Play</h1>
+        </div>
+    </button>
+   </div>
+</div>
 
     </footer>
 
