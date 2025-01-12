@@ -74,3 +74,12 @@ document.addEventListener('click',
 }
        
     ) 
+
+    const getEmailSection = document.getElementById('input-email')
+    const getNumberSection = document.getElementById('input-nmb')
+
+    if(getEmailSection.type === 'email' && getNumberSection.type === 'text')
+    {
+        const getNextBtn = document.getElementById('next-btn');
+        getNextBtn.classList.remove('hidden');
+    }
